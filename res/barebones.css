@@ -1,3 +1,14 @@
 @charset "utf-8";
-/* determining how few lines of css this needs to work correctly. */
+/* determining how few lines of css this needs to work correctly.
 
+turns out this is it. as written, the three classes below have to exist, and that's it. */
+
+.option-box {
+}
+
+.option-box-selected {
+}
+
+.invisible {
+	display:none;	
+}
